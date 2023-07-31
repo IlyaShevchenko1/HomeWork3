@@ -37,4 +37,22 @@ Console.WriteLine($"Distance between points ({x1};{y1};{z1}) and ({x2};{y2};{z2}
 //Task 23. Напишите программу, которая принимает на вход число (N) и выдает таблицу
 //кубов чисел от 1 до N.
 
+/*
+void CubeNumber (int number)
+{
+    int current = 1;
+    int cube = 0;
 
+    while (current <= number)
+    {
+        cube = current * current * current;
+        Console.WriteLine($"{current} --> {cube}");
+        current++;
+    }
+}
+
+Console.Write("Input a number: ");
+int cube = Convert.ToInt32(Console.ReadLine());
+
+CubeNumber(cube);
+*/
