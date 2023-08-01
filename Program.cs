@@ -1,7 +1,34 @@
 ﻿// Third Homework
 
-//Task 19. Напишите программу, которая принимает на вход любое число и проверяет
-//является ли оно палиндромом.
+//Task 19. Напишите программу, которая принимает на вход пятизначное число и 
+//проверяет, является ли оно палиндромом.
+
+/* 
+bool CompareFirstAndLast (string number)
+{
+    int lenght = number.Length;
+    int index = 0;
+    int lastIndex = lenght - 1;
+    int a = 0;
+
+    while (number[index] == number[lastIndex] && index < lenght / 2)
+    {
+        a = a + 1;
+        index++;
+        lastIndex--;
+    }
+    if (a == lenght / 2) return true;
+    else return false;    
+}
+ 
+Console.Write("Input a number: ");
+string number = Console.ReadLine();
+
+bool res = CompareFirstAndLast(number);
+if (res == true) Console.Write($"Number {number} is a palindrome");
+else Console.Write($"Number {number} is not a palindrome");
+
+*/
 
 //Task 21. Напишите программу, которая принимает на вход координаты двух точек
 //и находит расстояние между ними в 3D пространстве.
@@ -56,3 +83,5 @@ int cube = Convert.ToInt32(Console.ReadLine());
 
 CubeNumber(cube);
 */
+
+
